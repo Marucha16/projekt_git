@@ -33,4 +33,7 @@ get_disk_usage() {
         echo "$line"
     done
 }
+get_hostname
+get_os_name
+get_ram_usage
 get_disk_usage
