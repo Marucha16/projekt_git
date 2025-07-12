@@ -1,3 +1,17 @@
+<#
+.NAZWA
+    artykuly.ps1
+
+.OPIS
+    Pobiera i wyświetla artykuły na podany temat z API serwisu newsapi.org.
+    Umożliwia poruszanie się po stronach.
+
+.WYMAGANIA
+    - Konto i klucz API z https://newsapi.org
+
+.AUTOR
+    Mateusz
+#>
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $api="afb6c5f2a8cd436ab0d1994e4f3402de"
 # Zapytanie o temat
@@ -35,12 +49,12 @@ if ($response.status -eq "ok") {
     Write-Error "Błąd podczas pobierania danych: $($response.message)"
 }
 # Zapytanie co chce sie zrobic dalej
-$d = Read-Host -Prompt "1-Nastepna strona
-2-Wroc do poprzedniej strony
-3-zakoncz
-Inny numer pozostajesz na stronie na ktorej jestes
+$d = Read-Host -Prompt "1-Nastepna strona.
+2-Wroc do poprzedniej strony.
+3-zakoncz.
+Inny numer pozostajesz na stronie na ktorej jestes.
 -----------------------------------
-Podaj numer w zaleznosc i co chcesz zrobic"
+Podaj numer w zaleznosc i co chcesz zrobic:"
 # W razie ostatniej strony informowanie tego jesli chce przejsc sie dalej
 if($d -eq 1)
 {
