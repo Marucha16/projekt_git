@@ -1,3 +1,18 @@
+<#
+.NAZWA
+    kurs.ps1
+
+.OPIS
+    Skrypt pobiera kurs waluty z ostatnich 5 dni z API NBP.
+    W dni wolne wypisuje brak kursu tego dnia
+
+.WYMAGANIA
+    - Dostęp do internetu
+
+.AUTOR
+    Mateusz
+
+#>
 $odp= Read-Host -Prompt "Podaj jakiej waluty kurs chcesz sprawdzic(np zapisz to w sposob PLN lub USD)"
 $dzis = (Get-Date).ToString("yyyy-MM-dd")
 $dzien1=(Get-Date).AddDays(-5).ToString("yyyy-MM-dd")
