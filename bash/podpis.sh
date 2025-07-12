@@ -1,4 +1,10 @@
 #!/bin/bash
+# Nazwa: podpis.sh
+# Opis: Tworzy podpis cyfrowy pliku przy użyciu GPG (GNU Privacy Guard)
+# Autor: Mateusz
+# Wymagania: GPG
+
+#Zapytanie użytkownika o ścieżke do pliku
 read -p "Podaj sciezke do pliku" plik
 podpis="${plik}.sig"
 
