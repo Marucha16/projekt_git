@@ -4,9 +4,11 @@ Repozytorium zawiera różne skrypty w językach:
 - Python
 - Bash
 - C++
+- powershell
 
 ## Struktura
 
 - `python/` – skrypty w Pythonie
 - `bash/` – skrypty powłoki
 - `cpp/` – kod w C++
+- `powershell/` – kod w powershellu
