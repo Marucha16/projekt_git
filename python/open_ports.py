@@ -7,7 +7,7 @@ Prosty skaner portów TCP w Pythonie.
 Sprawdza, które porty są otwarte na wskazanym adresie IP w zadanym zakresie.
 
 Wymagania:
-- Python 3.x
+- Komputer
 """
 
 import socket
