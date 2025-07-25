@@ -11,24 +11,26 @@ int main() {
     cout<< "Give path to the file which you want to observate: ";
     getline(cin, path);
     ifstream file(path);
-    
     if (!file.is_open()) {
-        cerr << "Nie można otworzyć pliku: " << path << endl;
+        cerr << "You can't open file: " << path << endl;
         return 1;
     }
-        string line;
+    cout << "--------------------------------------------------------" << endl;
+    cout << "!!! Start observating logs, to end click ctrl + c !!!" << endl; // ctrl + c tylko w terminalu
+    cout << "--------------------------------------------------------" << endl;
+    string line;
+    // Wypisanie isteniejącyh liń w pliku
     while (getline(file, line)) {
         cout << line << endl;
     }
-
+    // Czekanie na pojawienie się nowych
     while (true) {
         if (getline(file, line)) {
             cout << line << endl;
         } 
         else {
             this_thread::sleep_for(chrono::seconds(1));
-            file.clear(); 
+            file.clear(); // czyścimy flagi eof, aby móc dalej czytać, inaczej program zamarznie
         }
     }
-
 }
