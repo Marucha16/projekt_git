@@ -1,1 +1,6 @@
+# Windowsowe skrypty z CRLF — działają bez problemu w CMD/PowerShell
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# Wszystkie pozostałe pliki z końcami LF — idealne dla Linux/WSL/Unix
 * text=auto eol=lf
