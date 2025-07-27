@@ -1,3 +1,16 @@
+<#
+.NAZWA
+    podstinfopw.ps1
+
+.OPIS
+    Podstawowe informacje o komputerze, pamięć, ram, nazwa, system opercyjny
+
+.WYMAGANIA
+    - komputer
+
+.AUTOR
+    Mateusz
+#>
 function Get-Hostname {
     Write-Host "Hostname: $env:COMPUTERNAME"
 }
@@ -27,4 +40,7 @@ function Get-DiskUsage {
         Write-Host "Dysk $($drive.DeviceID): użyto $used GB / $size GB (wolne: $free GB)"
     }
 }
+Get-Hostname
+Get-OSName
+Get-RAMUsage
 Get-DiskUsage
