@@ -1,3 +1,10 @@
+/*
+ * Nazwa: Log Watcher
+ * Opis: Program monitoruje podany plik tekstowy(np z logami) i wypisuje na ekran jego zawartość.
+ *       Najpierw wyświetla wszystkie istniejące linie, a następnie na bieżąco
+ *       obserwuje plik i wypisuje nowe linie, które się pojawią.
+ * Autor: Mateusz
+*/
 #include <iostream>
 #include <fstream>
 #include <string>
