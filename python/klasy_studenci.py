@@ -1,3 +1,17 @@
+"""
+Nazwa:
+- klasy_studenci.py
+
+Opis:
+- Program definiuje hierarchię klas opisujących studentów różnych stopni naukowych:
+  inżynier, magister oraz doktorat.
+
+Wymagania:
+- Komputer
+
+Autor: 
+- Mateusz
+"""
 # Głwna klasa student
 class Student:
     def __init__(self, imie,nazwisko,numer_albumu):

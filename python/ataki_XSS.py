@@ -1,3 +1,21 @@
+"""
+Nazwa:
+- ataki_XSS.py
+
+Opis:
+- Skrypt testujący aplikację webową pod kątem podatności typu XSS (Cross-Site Scripting).
+- Wysyła zestaw popularnych payloadów XSS do wybranego endpointu aplikacji i sprawdza,
+  czy zostały one zwrócone w odpowiedzi, co może świadczyć o podatności.
+- Wykorzystuje bibliotekę `requests` do wykonywania żądań HTTP
+  oraz `BeautifulSoup` do analizy kodu HTML w odpowiedzi.
+
+Wymagania:
+- Biblioteki: requests, beautifulsoup4
+- Dostęp do testowanej aplikacji (np. lokalny serwer)
+
+Autor: 
+- Mateusz
+"""
 import requests
 from bs4 import BeautifulSoup
 url = "http://192.168.1.197:5000/search"

@@ -1,13 +1,16 @@
 """
-atak_brute-force.py
-Autor: Mateusz
+Nazwa:
+- atak_brute-force.py
 
 Opis:
-Symulacja prostego ataku typu brute-force na formularz logowania HTTP.
+- Symulacja prostego ataku typu brute-force na formularz logowania HTTP.
 Wysyła żądania POST z listą loginów i haseł.
 
 Wymagania:
 - bibloteka requests
+
+Autor: 
+- Mateusz
 """
 import requests
 url = ("http://192.168.1.197/login")

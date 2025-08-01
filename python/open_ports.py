@@ -1,13 +1,16 @@
 """
-open_ports.py
-Autor: Mateusz
+Nazwa:
+- open_ports.py
 
 Opis:
-Prosty skaner portów TCP w Pythonie.
+- Prosty skaner portów TCP w Pythonie.
 Sprawdza, które porty są otwarte na wskazanym adresie IP w zadanym zakresie.
 
 Wymagania:
 - Komputer
+
+Autor: 
+- Mateusz
 """
 
 import socket

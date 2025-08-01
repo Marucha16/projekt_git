@@ -1,0 +1,2 @@
+# 📜Skrytpy pisane w python
+- 

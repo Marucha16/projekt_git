@@ -1,13 +1,16 @@
 """
-SQL_Injection.py
-Autor: Mateusz
+Nazwa:
+- SQL_Injection.py
 
 Opis:
-Skrypt testuje prostą podatność SQL Injection wysyłając różne klasyczne payloady do endpointa POST.
+- Skrypt testuje prostą podatność SQL Injection wysyłając różne klasyczne payloady do endpointa POST.
 Jeśli w odpowiedzi pojawią się typowe błędy SQL, może to sugerować podatność.
 
 Wymagania:
 - requests: `pip install requests`
+
+Autor: 
+- Mateusz
 """
 import requests
 # Adres testowanego endpointa
