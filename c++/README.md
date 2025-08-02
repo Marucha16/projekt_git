@@ -1,2 +1,2 @@
-# 📜Skrypty pisane w c++
-- logwatcher - skrypt obserwuje pojedynczy plik (np. z logami) i pokazuje jego zawartość
+# 📜Scripts in c++
+- logwatcher – a script that monitors a single file (e.g., a log file) and displays its contents in real-time.
