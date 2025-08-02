@@ -1,14 +1,15 @@
-# Moje Skrypty
+# My scripts
 
-Repozytorium zawiera różne skrypty w językach:
+This repository contains various scripts written in the following languages:
 - Python
 - Bash
 - C++
 - powershell
 
-## Struktura
+## Structure
 
-- `python/` – skrypty w Pythonie
-- `bash/` – skrypty powłoki
-- `cpp/` – kod w C++
-- `powershell/` – skrypty w powershellu
+- `python/` – Python scripts
+- `bash/` – Shell scripts
+- `cpp/` – C++ code
+- `powershell/` – Powershell scripts
+
