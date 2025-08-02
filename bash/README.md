@@ -1,23 +1,22 @@
-# 🖥️ Skrypty Bash
+# 🖥️ Bash Scripts
 
-Zbiór przydatnych skryptów bashowych do szyfrowania, bezpieczeństwa, informacji o systemie i pobierania danych z API.
+A collection of useful Bash scripts for encryption, security, system information, and fetching data from APIs.
 
-## 📜 Spis skryptów
+## 📜 Script List
 
 - **`AES.sh`**  
-  Szyfruje plik przy użyciu algorytmu AES-256-CBC za pomocą `OpenSSL`.
+  Encrypts a file using the AES-256-CBC algorithm with `OpenSSL`.
 
 - **`Virus_total.sh`**  
-  Wysyła plik przez API do [VirusTotal](https://www.virustotal.com/) i sprawdza, czy jest bezpieczny.
-
+  Sends a file via API to VirusTotal and checks if it is safe.
 - **`Podpis.sh`**  
-  Tworzy podpis cyfrowy pliku przy użyciu `GPG` (GNU Privacy Guard).
+  Creates a digital signature of a file using `GPG` (GNU Privacy Guard).
 
 - **`podstawoweinfobs.sh`**  
-  Wyświetla podstawowe informacje o systemie: hostname, nazwa systemu operacyjnego, zużycie pamięci RAM oraz aktualna dostępna pamięć.
+  Displays basic system information: hostname, operating system name, RAM usage, and currently available memory.
 
 - **`pogoda_api.sh`**  
-  Pobiera aktualną pogodę z API serwisu [OpenWeatherMap](https://openweathermap.org/).
+  Retrieves current weather data from the OpenWeatherMap API.
 
 - **`wyszukiwanie_lokalizacji.sh`**  
-  Odczytuje współrzędne GPS z metadanych pliku (np. zdjęcia) i wyświetla je w konsoli.
+  Reads GPS coordinates from a file’s metadata (e.g., a photo) and displays them in the console.
