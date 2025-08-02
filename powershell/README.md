@@ -1,4 +1,4 @@
-# 📜Skrytpy pisane w powershell
+# 📜 List of Powershell Scripts
 - artykuly.ps1 -  Pobiera i wyświetla artykuły na podany temat z API serwisu newsapi.org. Umożliwia poruszanie się po stronach z artykułami.
 - ftp2.ps1 - Tworzy połączenie i wysyła pliki przez ftp.
 - kurs.ps1 - Skrypt pobiera kurs waluty z ostatnich 5 dni z API NBP. W dni wolne wypisuje brak kursu tego dnia.
