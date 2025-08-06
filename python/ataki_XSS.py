@@ -18,6 +18,7 @@ Autor:
 """
 import requests
 from bs4 import BeautifulSoup
+# Adres testowanego endpointa, musisz go zmienic na swoj
 url = "http://192.168.1.197:5000/search"
 payloads = [
     "<script>alert(1)</script>",
@@ -34,4 +35,5 @@ for payload in payloads:
     if payload in odp.text:
         print(f"[!] Potencjalna podatność XSS z payloadem: {payload}")
     else:
+
         print(f"[-] Payload niewstrzyknięty: {payload}")
