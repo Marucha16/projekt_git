@@ -13,7 +13,7 @@ check() {
 # Z2 reputacja sprawdzanie
 reputacja() {
     #wyslanie pliku
-    api= "tutaj wpisz swój klucz API” # dodaj api
+    api="tutaj wpisz swój klucz API” # dodaj api
     wyslanie=$(curl -s --request POST \
         --url "https://www.virustotal.com/api/v3/files" \
         --header "x-apikey: $api" \
