@@ -7,7 +7,7 @@
     Umożliwia poruszanie się po stronach.
 
 .WYMAGANIA
-    - Konto i klucz API z https://newsapi.org
+    - Konto i klucz API z https://newsapi.org , , musisz podać api
 
 .AUTOR
     Mateusz
@@ -85,4 +85,5 @@ if($d -eq 3)
     Write-Host "!!!Koniec programu!!!"
 }
 }
+
 
