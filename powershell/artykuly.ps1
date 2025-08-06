@@ -13,7 +13,7 @@
     Mateusz
 #>
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-$api="afb6c5f2a8cd436ab0d1994e4f3402de"
+$api= # Podaj api
 # Zapytanie o temat
 $temat = Read-Host -Prompt "Podaj na jaki temat artykul chcesz znalezc"
 # Podstawowe zmienne do zapytania
@@ -85,3 +85,4 @@ if($d -eq 3)
     Write-Host "!!!Koniec programu!!!"
 }
 }
+
