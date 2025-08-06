@@ -2,7 +2,7 @@
 # Nazwa: pogoda_api.sh
 # Opis: Pobiera pogode z api z openweathermap
 # Autor: Mateusz
-# Wymagania: bash, curl, jq, sed, iconv, enscript, ghostscript
+# Wymagania: bash, curl, jq, sed, iconv, enscript, ghostscript, musisz podać api
 
 read -p "Podaj miasto, w którym chcesz sprawdzic pogode:" city
 api= # Podaj api
