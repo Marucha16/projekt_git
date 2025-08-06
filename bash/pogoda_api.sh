@@ -5,7 +5,7 @@
 # Wymagania: bash, curl, jq, sed, iconv, enscript, ghostscript, musisz podać api
 
 read -p "Podaj miasto, w którym chcesz sprawdzic pogode:" city
-api= # Podaj api
+api="tutaj wpisz swój klucz API”  # Podaj api
 #pobiernie inforamcji o prognozie na 5 dni
 pogoda=$(curl -s "http://api.openweathermap.org/data/2.5/forecast?q=$city&units=metric&appid=$api" | jq '[.list[] | select(.dt_txt | contains("12:00:00"))]')
 prognoza_count=$(echo "$pogoda" | jq 'length')
