@@ -2,7 +2,7 @@
 # Nazwa: Virus_total.sh
 # Opis: Wysyła plik przez api do Virus total i sprawdza czy jest bezpieczny
 # Autor: Mateusz
-# Wymagania: jq
+# Wymagania: jq, , musisz podać api
 
 # Z1 Obliczenie sumy (SHA256)
 check() {
