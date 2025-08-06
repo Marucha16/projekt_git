@@ -13,6 +13,7 @@ Autor:
 - Mateusz
 """
 import requests
+# Adres testowanego endpointa, musisz go zmienic na swoj
 url = ("http://192.168.1.197/login")
 # Listy uzytkowników i haseł do przetestowania
 uzytkownicy = ["admin", "user", "test"]
@@ -28,3 +29,4 @@ for uzyt in uzytkownicy:
             print(f"[+] Udało się zalogować: {uzyt}:{haslo}")
         else:
             print(f"[-] Nieudane logowanie: {uzyt}:{haslo}")
+
