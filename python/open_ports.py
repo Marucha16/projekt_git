@@ -27,5 +27,6 @@ def skan_portow(ip, start_port, end_port):
                 porty.append(port)
     if not porty:
         print("Nie znaleziono otwartych portów.")
-# Wywołanie
+# Wywołanie, Adres testowanego endpointa, musisz go zmienic na swoj
 skan_portow("192.168.1.197",1,21)
+
