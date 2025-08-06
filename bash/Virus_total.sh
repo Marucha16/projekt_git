@@ -13,7 +13,7 @@ check() {
 # Z2 reputacja sprawdzanie
 reputacja() {
     #wyslanie pliku
-    api="11f3bbbdf47a666b0d060c04d8f56108b60ebfd2e9baf19e4b0a65e163e14ebc"
+    api= # dodaj api
     wyslanie=$(curl -s --request POST \
         --url "https://www.virustotal.com/api/v3/files" \
         --header "x-apikey: $api" \
